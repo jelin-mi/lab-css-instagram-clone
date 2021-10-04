@@ -8,3 +8,117 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header {
+  background-color: #1c5380;
+  height: 500px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90vw;
+  margin: 0px auto;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+
+img {
+  width: 40%;
+}
+
+.right {
+  width: 60%;
+  top: 150px;
+  position: fixed;
+  left: 600px;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-left: 15px;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #1c5380;
+  padding: 10px 15px;
+  border-radius: 5%;
+  border: 2px solid #06365f;
+  /* border-image: url("/lab-css-instagram-clone/images/bgtile.png"); */
+}
+
+button img {
+  width: 50px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: auto;
+  align-items: center;
+}
+
+span {
+  color: white;
+  font-family: "Helvetica Neue";
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.copy {
+  background-image: url("/lab-css-instagram-clone/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 35px;
+  margin-top: 0;
+}
+
+p {
+  font-size: 22px;
+}
+
+.download {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  padding-left: 50px;
+}
+
+.download img {
+  height: 80px;
+  width: auto;
+}
+
+footer {
+  width: 80%;
+  margin-top: 50px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+footer ul li:last-child a{
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+  color: #1c5380;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
